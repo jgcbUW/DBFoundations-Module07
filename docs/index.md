@@ -6,7 +6,7 @@ Functions in SQL come in all shapes and sizes. There are functions that can calc
 ## The usefulness of UDFs
 For those that aren’t aware, UDFs are defined as User Defined Functions. Luckily, these are rather self-descriptive. UDFs can be created for many sorts of purposes, but they aren’t without their limitations. When working with code over and over, it is always worthwhile to save that code for replicability rather than typing it over and over. However, functions are a good choice if you need to retrieve specific information mid-statement, return a table with specific parameters, and many more. I particularly liked the example discussed in WiseOwl’s discussion on the topic of inline functions. 
  
-![Function example](https://github.com/jgcbUW/DBFoundations-Module07/blob/main/docs/Picture1.png,"Functions") 
+![Function example](https://github.com/jgcbUW/DBFoundations-Module07/blob/main/docs/Picture1.png "Functions") 
 ###### *Figure 1 - WiseOwl Function https://www.wiseowl.co.uk/blog/s347/in-line.htm*
 
 This code will simply retrieve a table that has values with these specific restrictions! Very nifty for ease-of-use coding.   
